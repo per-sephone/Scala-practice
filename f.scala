@@ -34,8 +34,8 @@ object Main{
     
     def main(args: Array[String]): Unit = {
         val n = 10 
-        //println("non-tail recursive form: " + g(n))
-        //println("tail recursive form: " + f(n))
+        println("non-tail recursive form: " + g(n))
+        println("tail recursive form: " + f(n))
         println("tail-recurisve version: " + facT(n))
         println("iterative version: " + facS(n))
     }
